@@ -16,6 +16,9 @@ import { WidgetComponent } from './components/widget/widget.component';
   imports: [
     CommonModule,
     WeatherRoutingModule
+  ],
+  exports:[
+    HomepageComponent
   ]
 })
 export class WeatherModule { }
